@@ -186,6 +186,10 @@
       <Project>{14847f18-14d9-46bc-b475-43b570ce48c1}</Project>
       <Name>Championship.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Championship.Infra.Data2\Championship.Infra.Data.csproj">
+      <Project>{90901b86-318d-4bc9-a3fc-e0c227d2ec29}</Project>
+      <Name>Championship.Infra.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

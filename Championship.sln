@@ -13,13 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AD002869-E953-4BA5-8D34-E053AADCB2F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{74669A12-0C28-426F-B400-EFC70976AE6B}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Championship.Domain", "Championship.Domain\Championship.Domain.csproj", "{14847F18-14D9-46BC-B475-43B570CE48C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{AC96097A-62F9-430F-B33E-73ED3221B91F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Championship.Application", "Championship.Application\Championship.Application.csproj", "{7A1B8395-30D8-4E92-94E2-9173F189782D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3865257D-3E6F-419C-9E5D-9E8A38292A10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship.Tests", "Championship.Tests\Championship.Tests.csproj", "{7F0AA25A-9F53-42DB-A339-9AB3120530C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship.Infra.Data", "Championship.Infra.Data2\Championship.Infra.Data.csproj", "{90901B86-318D-4BC9-A3FC-E0C227D2EC29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,10 @@ Global
 		{7F0AA25A-9F53-42DB-A339-9AB3120530C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F0AA25A-9F53-42DB-A339-9AB3120530C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0AA25A-9F53-42DB-A339-9AB3120530C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90901B86-318D-4BC9-A3FC-E0C227D2EC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90901B86-318D-4BC9-A3FC-E0C227D2EC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90901B86-318D-4BC9-A3FC-E0C227D2EC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90901B86-318D-4BC9-A3FC-E0C227D2EC29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,8 +60,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D5C65860-1F5B-4CED-932B-D79B94A0761E} = {4BB25956-8483-4601-8BFB-84DED3F52CA2}
 		{14847F18-14D9-46BC-B475-43B570CE48C1} = {AD002869-E953-4BA5-8D34-E053AADCB2F7}
+		{AC96097A-62F9-430F-B33E-73ED3221B91F} = {74669A12-0C28-426F-B400-EFC70976AE6B}
 		{7A1B8395-30D8-4E92-94E2-9173F189782D} = {DE5BB04A-ED07-4803-A4D2-3C4536771925}
 		{7F0AA25A-9F53-42DB-A339-9AB3120530C1} = {3865257D-3E6F-419C-9E5D-9E8A38292A10}
+		{90901B86-318D-4BC9-A3FC-E0C227D2EC29} = {AC96097A-62F9-430F-B33E-73ED3221B91F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4BD3D77-F900-446B-9DBD-AD7B09F9A009}
