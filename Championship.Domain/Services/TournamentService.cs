@@ -1,6 +1,7 @@
 ﻿using Championship.Domain.Entities;
 using Championship.Domain.Interfaces;
 using Championship.Domain.Interfaces.Services;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -23,10 +24,9 @@ namespace Championship.Domain.Services
             {
                 tournament.NumberOfKeys = countOfTournamentKeys;
                 Tournament tournamentWithKeys = CreateKeys(tournament);
-                _tournamentRepository.Add(tournamentWithKeys, uri);
             } else
             {
-
+                throw new NotImplementedException();
             }
         }
 

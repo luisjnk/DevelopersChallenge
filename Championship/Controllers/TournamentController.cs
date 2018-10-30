@@ -37,9 +37,7 @@ namespace Championship.Controllers
                 Tournament tournamentDomain = Mapper.Map<TournamentViewModel, Tournament>(tournament);
                 tournamentDomain.genId();
                 _tournamentAppService.CreateTournament(tournamentDomain);
-                //var response = _tournamentAppService.Add(tournamentDomain, uri);
-                /*TournamentViewModel tournamentVM = Mapper.Map<Tournament, TournamentViewModel>(tournamentDomain);
-                return tournamentVM;*/
+               
                 return tournament;
             }
             catch (Exception ex)
